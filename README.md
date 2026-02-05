@@ -48,6 +48,7 @@ DELETE /todos/:id
 All protected routes require:
 
 Authorization: Bearer <JWT_TOKEN>
+Create a .env file using .env.example
 
 ## Notes
 - userId is automatically extracted from JWT
